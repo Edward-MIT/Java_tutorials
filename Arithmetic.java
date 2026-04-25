@@ -24,6 +24,26 @@ public class Arithmetic {
     // Qoldiqli bo'lish moduli
     System.out.println("x % y = " + (x % y)) ; // 3 faqat qoldiq natijda chiqariladi
 
+    // logical Operators
+
+    // && logical and
+
+    // || logical or , ! logical not
+
+    boolean isLogical = true;
+    boolean isAdmin = false;
+
+    System.out.println("Regular user: " + (isLogical && !isAdmin));
+    System.out.println("Has access: " + (isLogical|| isAdmin));
+    System.out.println("Not looged in: " + (!isLogical));
+
+
+    // coding challange
+
+    int itemPrice = 10;
+    int shippingCost = 2;
+    int sum = itemPrice + shippingCost;
+    System.out.println(sum);
 
   }
 
